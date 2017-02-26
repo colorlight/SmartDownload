@@ -1,5 +1,5 @@
 function smartDownload(url){
-	document.createElement('a');
+	var a = document.createElement('a');
 	a.href = url;
 	a.download = 'anything';
 	a.click();
